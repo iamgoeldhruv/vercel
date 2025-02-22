@@ -25,4 +25,4 @@ RUN chmod +x main.sh
 RUN chmod +x script.js
 
 # Run the script on container startup
-CMD ["bash", "./clone_and_run.sh"]
+CMD ["bash", "./main.sh"]
